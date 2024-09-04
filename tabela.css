@@ -1,0 +1,110 @@
+table{
+    width: 100%;
+}
+td{
+    height: 80px;
+    background-color: rgb(255, 244, 244);
+
+}
+
+td{
+    border-style: double;
+}
+
+#coluna1 {
+    background-color: rgb(0, 187, 100);
+}
+
+#coluna2 {
+    background-color: rgb(221, 144, 29);
+}
+
+#coluna3 {
+    background-color: rgb(221, 224, 0);
+}
+
+#coluna4 {
+    background-color: rgb(0, 245, 253);
+}
+
+
+#coluna5 {
+    background-color: rgb(13, 60, 216);
+}
+
+#coluna6 {
+    background-color: rgb(8, 150, 185);
+}
+
+#coluna7 {
+    background-color: rgb(134, 105, 161);
+}
+
+#coluna8 {
+    background-color: rgb(231, 117, 178);
+}
+
+#coluna9 {
+    background-color: rgb(37, 15, 136);
+}
+
+#coluna10 {
+ background-color: indianred;
+}
+
+.algumacoisa {
+    border: none;
+}
+.titulo{
+    text-align: center;
+}
+
+/* FOOTER */
+
+footer {
+    font-size: 1em;
+    width: 100%;
+    margin: 2em 0;
+  }
+
+  ul {
+    justify-content: center;
+  }
+
+  li {
+    flex-basis: auto;
+    margin-bottom: 0;
+  }
+
+  li + li {
+    margin-left: 2em;
+  }
+
+  footer{
+    font-size:.8em;
+    text-align:left;
+    flex-basis:13.5rem;
+    margin: -.25em 0 0 1em;
+    }
+    ul{
+    display: flex;
+    flex-wrap:wrap;
+    position: sticky;
+    top:1em;
+    }
+li {
+    flex-basis: 100%;
+    line-height: 1.25;
+    margin-bottom: 1em;
+}
+    li::before{
+    content:('');
+    display:in;
+    width:1em;
+    height:1em;
+    border:.125em solid;
+    border-radius:.125rem;
+    margin-right:.5em;
+    position:relative;
+    top:.25em;
+    }
